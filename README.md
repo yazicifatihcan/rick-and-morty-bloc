@@ -35,3 +35,9 @@ Implement pagination
 # Notes:
 - You need to use same libraries, but you can also add more (reasonable amount)
 - Simulate a failure case by turning off your internet connection and a success case by turning on your internet connection.
+
+## Things to keep in mind
+- Your code should compile without errors and app should run on both iOS and Android seamlessly
+- Keep things clean, simple and fun
+- Use bloc state-management if possible
+- You can fork or clone the repo and share the link (make sure it is public and accessible) 
