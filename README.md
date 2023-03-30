@@ -32,11 +32,9 @@ Implement pagination
         - Next page error state (when fetching the next page after previous pages has been fetched successfully)
 
 
-# Notes:
+## Things to keep in mind
 - You need to use same libraries, but you can also add more (reasonable amount)
 - Simulate a failure case by turning off your internet connection and a success case by turning on your internet connection.
-
-## Things to keep in mind
 - Your code should compile without errors and app should run on both iOS and Android seamlessly
 - Keep things clean, simple and fun
 - Use bloc state-management if possible
