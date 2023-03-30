@@ -1,21 +1,37 @@
-# casino_test
+# Casino Test
 
-Casino test Flutter application.
+Test Task: Online Casino Flutter application.
 
-This is app to explore all characters in Rick and Morty movie.
+Do you remember Rick and Morty cartoon? 
+Your goal is to create the app with all the characters from this cartoon, and make it look juicy.
 
 API docs: https://rickandmortyapi.com/documentation
 
-##Todo:
-- fix loading state
-- fix fetching data logic
-- find and fix all other issues
-- add more information about characters
-- optimize scrolling performance
-- implement pagination
+##To-do:
 
-#Optional:
-- add infinite scrolling pagination
+Using clean architecture design pattern
+- Refactor application to your best understanding of the design pattern
+- Fix loading state and fetching data feature
+- Find and fix all other bugs and issues
+- Add more information about characters
+- Optimize scrolling performance
+- Implement pagination
 
-#Comments:
-You need to use same libraries, but you can also add more(reasonably).
+## Optional:
+Implement pagination
+- Add infinite scrolling pagination
+- Implement recovering from an `Error` state after the last request failed in the paginated view (i.e Application should be able to make a request and return a success response when the previous request fails. Read `Notes` for more information)
+- Account for all possible states and edge cases
+    - Initial
+    - Loading
+        - Initial loading state (when fetching the first page)
+        - Next page loading state (when fetching the next page after previous pages has been fetched successfully)
+    - Success
+    - Error 
+        - Initial error state (when fetching the first page)
+        - Next page error state (when fetching the next page after previous pages has been fetched successfully)
+
+
+# Notes:
+- You need to use same libraries, but you can also add more (reasonable amount)
+- Simulate a failure case by turning off your internet connection and a success case by turning on your internet connection.
